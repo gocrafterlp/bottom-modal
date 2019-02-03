@@ -20,6 +20,8 @@ public class MainActivity extends AppCompatActivity {
         Button button = findViewById(R.id.button);
         final ModalNavigationDrawer drawer = findViewById(R.id.drawer);
 
+        drawer.releaseToDecor(this, true);
+
         drawer.setDim(Color.parseColor("#66ff0000"));
 
         ModalDrawerParameters parameters = ModalDrawerParameters.create();
@@ -31,7 +33,6 @@ public class MainActivity extends AppCompatActivity {
         drawer.setParams(parameters);
 
         drawer.setContentBackgroundColor(Color.BLUE);
-        drawer.setContent(new Button(this));
 
         button.setOnClickListener(new View.OnClickListener() {
             @Override

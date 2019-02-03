@@ -324,12 +324,10 @@ public class ModalNavigationDrawer extends FrameLayout {
         }
 
         if (fullscreen) {
-            ViewGroup decorView = (ViewGroup) activity.getWindow().getDecorView();
-            View content = decorView.getChildAt(0);
-            if (content instanceof ViewGroup) {
-                ((ViewGroup) content).addView(this);
-            } else
-                decorView.addView(this);
+            View content = activity.findViewById(android.R.id.content);
+            ViewGroup parent = (ViewGroup) content.getParent();
+
+            parent.addView(this);
         } else {
             View content = activity.findViewById(android.R.id.content);
             if (content instanceof ViewGroup) {
