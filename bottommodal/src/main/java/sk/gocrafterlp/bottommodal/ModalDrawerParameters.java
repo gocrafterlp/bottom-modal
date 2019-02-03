@@ -35,18 +35,8 @@ public class ModalDrawerParameters {
         return showing;
     }
 
-    public ModalDrawerParameters setShowing(boolean showing) {
-        this.showing = showing;
-        return this;
-    }
-
     public boolean isAnimating() {
         return animating;
-    }
-
-    public ModalDrawerParameters setAnimating(boolean animating) {
-        this.animating = animating;
-        return this;
     }
 
     public boolean isDismissible() {
