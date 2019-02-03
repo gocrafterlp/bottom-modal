@@ -1,5 +1,5 @@
 # bottom-modal
-[![Release](https://jitpack.io/v/User/Repo.svg)]
+[![Release](https://jitpack.io/v/gocrafterlp/bottom-modal.svg)]
 (https://jitpack.io/#gocrafterlp/bottom-modal)
 
 bottom-modal is customizable bottom navigation drawer library
@@ -100,3 +100,4 @@ public class MainActivity extends AppCompatActivity {
 
 ## License
 This project is published under Apache 2.0 license.
+[More info about license](https://github.com/gocrafterlp/bottom-modal/blob/master/LICENSE)
