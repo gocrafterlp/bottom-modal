@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="ModalNavigationDrawer">
+
+        <attr name="modal_layout" format="reference"/>
+        <attr name="shown" format="boolean"/>
+        <attr name="dismissible" format="boolean"/>
+    </declare-styleable>
+</resources>
