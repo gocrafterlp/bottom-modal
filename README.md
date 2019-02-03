@@ -18,7 +18,7 @@ Add bottom-modal to depedencies
 ```gradle
 dependencies {
   ...
-  implementation 'com.github.gocrafterlp:bottom-modal:1.0'
+  implementation 'com.github.gocrafterlp:bottom-modal:1.1'
 }
 ```
 
@@ -72,6 +72,8 @@ public class MainActivity extends AppCompatActivity {
 
         Button button = findViewById(R.id.button);
         final ModalNavigationDrawer drawer = findViewById(R.id.drawer); // find drawer by its id
+        
+        drawer.releaseToDecor(this); // release drawer to decor view so it will clip whole activity
         
         drawer.setDim(Color.parseColor("#66ff0000")); // set dim color to transparent red, default is rgb(102, 0, 0, 0)
 
