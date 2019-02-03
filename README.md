@@ -1,5 +1,5 @@
 # bottom-modal
-![Jitpack](https://jitpack.io/v/gocrafterlp/bottom-modal.svg)
+[![Jitpack](https://jitpack.io/v/gocrafterlp/bottom-modal.svg)](https://jitpack.io/#gocrafterlp/bottom-modal)
 
 bottom-modal is customizable bottom navigation drawer library
 
