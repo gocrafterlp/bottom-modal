@@ -3,6 +3,8 @@
 
 bottom-modal is customizable bottom navigation drawer library
 
+![Screenshot1](/bottommodal/src/main/rsz_screenshot_1549196299.png) ![Screenshot2](/bottommodal/src/main/rsz_screenshot_1549196302.png)
+
 ## Installation
 Add Jitpack to your repositories
 ```gradle
