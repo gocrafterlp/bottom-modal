@@ -97,6 +97,27 @@ public class MainActivity extends AppCompatActivity {
 }
 ```
 
+## Compatibility
+You might need to add Java 1.8 compatibity in order to use library
+```gradle
+android {
+    compileSdkVersion ...
+    defaultConfig {
+        ...
+    }
+    buildTypes {
+        release {
+            ...
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+```
+
 ## License
 This project is published under Apache 2.0 license.
 [More info about license](https://github.com/gocrafterlp/bottom-modal/blob/master/LICENSE)
