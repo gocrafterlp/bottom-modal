@@ -18,7 +18,7 @@ Add bottom-modal to depedencies
 ```gradle
 dependencies {
   ...
-  implementation 'com.github.gocrafterlp:bottom-modal:1.0'
+  implementation 'com.github.gocrafterlp:bottom-modal:1.1'
 }
 ```
 
